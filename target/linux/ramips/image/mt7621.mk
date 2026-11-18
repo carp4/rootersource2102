@@ -1844,8 +1844,8 @@ define Device/zbtlink_zbt-wg1602-16m
   DEVICE_VENDOR := Zbtlink
   DEVICE_MODEL := ZBT-WG1602
   DEVICE_VARIANT := 16M
-  DEVICE_PACKAGES := kmod-sdhci-mt7620 kmod-mt7603 kmod-usb3 \
-	kmod-usb-ledtrig-usbport kmod-mt76x2 
+  DEVICE_PACKAGES := kmod-sdhci-mt7620 kmod-mt7603 kmod-mt76x2 kmod-usb3 \
+	kmod-usb-ledtrig-usbport
 endef
 TARGET_DEVICES += zbtlink_zbt-wg1602-16m
 #end1602
